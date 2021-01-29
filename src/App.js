@@ -5,6 +5,12 @@ import PostStatusFilter from './components/PostStatusFilter';
 import SearchPanel from './components/SearchPanel';
 import './App.css';
 
+const data = [
+  { label: 'Собираюсь изучить React JS', important: true, id: 'asd' },
+  { label: 'Вот теперь хорошо!', important: false, id: 'few' },
+  { label: 'Мне нужен перерыв...', important: false, id: 'wqe' }
+]
+
 function App() {
   return (
     <div className="app">
@@ -13,7 +19,7 @@ function App() {
         <SearchPanel />
         <PostStatusFilter />
       </div>
-      <PostList />
+      <PostList posts={data} />
       <PostAddForm />
     </div>
   );
