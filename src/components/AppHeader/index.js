@@ -1,4 +1,4 @@
-import './app-header.css';
+import './app-header.sass';
 
 const AppHeader = () => {
   return (

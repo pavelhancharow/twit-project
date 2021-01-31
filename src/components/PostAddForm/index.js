@@ -1,4 +1,4 @@
-import './post-add-form.css'
+import './post-add-form.sass'
 
 const PostAddForm = () => {
   return (

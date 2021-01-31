@@ -1,4 +1,4 @@
-import './post-status-filter.css'
+import './post-status-filter.sass'
 
 const PostStatusFilter = () => {
   return (

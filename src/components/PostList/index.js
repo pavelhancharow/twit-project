@@ -1,6 +1,6 @@
 import PostListItem from '../PostListItem';
 
-import './post-list.css'
+import './post-list.sass'
 
 const PostList = ({ posts }) => {
   const elements = posts.map(item => {

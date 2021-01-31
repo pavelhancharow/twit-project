@@ -3,7 +3,7 @@ import PostAddForm from './components/PostAddForm';
 import PostList from './components/PostList';
 import PostStatusFilter from './components/PostStatusFilter';
 import SearchPanel from './components/SearchPanel';
-import './App.css';
+import './App.sass';
 
 const data = [
   { label: 'Собираюсь изучить React JS', important: true, id: 'asd' },
